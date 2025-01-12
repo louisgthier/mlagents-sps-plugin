@@ -22,10 +22,10 @@ Here’s an example of the output you’ll see in the console with this plugin:
 
 ## Installation
 
-Install via [PyPI](https://pypi.org/) in the same python virtual environment that you have mlagents installed:
+Install via [PyPI](https://pypi.org/project/mlagents-sps-plugin/) in the same python virtual environment that you have mlagents installed:
 
 ```bash
-pip install mlagents_sps_plugin
+pip install mlagents-sps-plugin
 ```
 
 Run ML-Agents Training as Usual: Just run your `mlagents-learn` commands as you normally would. The plugin will automatically log the Steps Per Second (SPS) to TensorBoard and the console so you can monitor the performance in real-time.
